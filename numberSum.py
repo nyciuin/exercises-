@@ -8,7 +8,7 @@ print('please enter a number')
 number1 = int(input())
 
 while True:
-    print('please enter another number ("stops to exit")')
+    print('please enter another number ("stop to exit")')
     number2 = input()
     if number2.isdigit():
         number1 = number1 + int(number2)        
